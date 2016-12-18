@@ -1,6 +1,6 @@
 <?php
 echo " we are in bootstrap file";
-require_once('autoloader.php');
+require_once('Autoloader.php');
 spl_autoload_register('Autoloader::loader');
 
 ?>
